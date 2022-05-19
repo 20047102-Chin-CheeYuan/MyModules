@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">My Modules</string>
-    <string name="c300">C300 FYP Project</string>
-    <string name="c322">C322 Data Centre and Cloud Management</string>
-    <string name="c346">C346 Mobile App Development</string>
-    <string name="c382">C382 IT Service Delivery</string>
+    <string name="c300">C300\nFYP Project</string>
+    <string name="c322">C322\nData Centre and Cloud Management</string>
+    <string name="c346">C346\nMobile App Development</string>
+    <string name="c382">C382\nIT Service Delivery</string>
     <string name="goBack">Return</string>
 </resources>

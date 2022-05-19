@@ -9,38 +9,60 @@
     <TextView
         android:id="@+id/textViewModuleCode"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="Module Code:"
+        android:padding="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <TextView
         android:id="@+id/textViewModuleName"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="Module Name:"
+        android:padding="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <TextView
         android:id="@+id/textViewAcadYear"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="Academic Year:"
+        android:padding="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    />
 
     <TextView
         android:id="@+id/textViewSemester"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="Semester:"
+        android:padding="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    />
 
     <TextView
         android:id="@+id/textViewModuleCreds"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="Module Credits:"
+        android:padding="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    />
 
     <TextView
         android:id="@+id/textViewVenue"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="Venue:"
+        android:padding="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    />
 
     <Button
         android:id="@+id/buttonReturn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="225dp"
         android:text="@string/goBack" />
 
 
