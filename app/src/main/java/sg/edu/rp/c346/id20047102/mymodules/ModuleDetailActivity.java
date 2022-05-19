@@ -41,6 +41,7 @@ public class ModuleDetailActivity extends AppCompatActivity {
             Semester.setText("Semester: 1");
             ModuleCreds.setText("Module Credit: 4");
             Venue.setText("Venue: E62L");
+
         } else if (moduleSelected.equals("C322")) {
             ModuleCode.setText("Module Code: " + moduleSelected);
             ModuleName.setText("Module Name: Data Centre and Cloud Management");
@@ -48,6 +49,7 @@ public class ModuleDetailActivity extends AppCompatActivity {
             Semester.setText("Semester: 1");
             ModuleCreds.setText("Module Credit: 4");
             Venue.setText("Venue: E61H");
+
         } else if (moduleSelected.equals("C346")) {
             ModuleCode.setText("Module Code: " + moduleSelected);
             ModuleName.setText("Module Name: Mobile App Development");
@@ -55,6 +57,7 @@ public class ModuleDetailActivity extends AppCompatActivity {
             Semester.setText("Semester: 1");
             ModuleCreds.setText("Module Credit: 4");
             Venue.setText("Venue: E62E");
+
         } else {
             ModuleCode.setText("Module Code: " + moduleSelected);
             ModuleName.setText("Module Name: IT Service Delivery");
@@ -67,8 +70,7 @@ public class ModuleDetailActivity extends AppCompatActivity {
         btnReturn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(ModuleDetailActivity.this, MainActivity.class);
-                startActivity(intent);
+                finish();
             }
         });
 

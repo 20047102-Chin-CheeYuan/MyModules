@@ -22,7 +22,8 @@
             android:background="#7694FF"
             android:gravity="center"
             android:text="@string/c300"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -41,7 +42,8 @@
             android:background="#BDE69A"
             android:gravity="center"
             android:text="@string/c346"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -60,7 +62,8 @@
             android:background="#D89494"
             android:gravity="center"
             android:text="@string/c322"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -79,7 +82,8 @@
             android:background="#C36F6F"
             android:gravity="center"
             android:text="@string/c382"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </LinearLayout>
