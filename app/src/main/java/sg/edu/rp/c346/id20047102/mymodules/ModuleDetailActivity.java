@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class ModuleDetailActivity extends AppCompatActivity {
@@ -14,6 +16,7 @@ public class ModuleDetailActivity extends AppCompatActivity {
     TextView Semester;
     TextView ModuleCreds;
     TextView Venue;
+    Button btnReturn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +29,7 @@ public class ModuleDetailActivity extends AppCompatActivity {
         Semester = findViewById(R.id.textViewSemester);
         ModuleCreds = findViewById(R.id.textViewModuleCreds);
         Venue = findViewById(R.id.textViewVenue);
+        btnReturn = findViewById(R.id.buttonReturn);
 
         Intent i = getIntent();
         String moduleSelected = i.getStringExtra("Module");
@@ -59,6 +63,14 @@ public class ModuleDetailActivity extends AppCompatActivity {
             ModuleCreds.setText("Module Credit: 4");
             Venue.setText("Venue: E62B");
         }
+
+        btnReturn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ModuleDetailActivity.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }
